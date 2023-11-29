@@ -17,7 +17,7 @@ btnSpread.forEach((button, i) => {
     resultBox.innerHTML += value;
   });
 });
-document.addEventListener("keyup", function (event) {
+document.addEventListener("keydown", function (event) {
   const key = event.key;
   if (
     (key >= "0" && key <= "9") ||
